@@ -1,0 +1,336 @@
+*{
+    margin-top: 0;
+}
+.tina-nav{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    justify-content: space-between;
+    align-items: center;
+    background-color: brown;
+    height: 2cm;
+}
+.tina-nav ul{
+    justify-content: space-between;
+    display: flex;
+    flex: 1;
+    cursor: pointer;
+}
+.tina-nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.HEADER{
+    background-color:orangered;
+    font-size: large;
+   
+}
+.LOGO{
+    height:1CM;
+    display:inline-block;
+
+   
+}
+.link-1,.tina-nav ul li:hover{
+    background-color: brown;
+    border-radius: 3px;
+
+}
+.menu{
+    display:inline flex;
+    justify-content:space-between;
+    align-items: center;
+    display: none;
+}
+.tina-nav ul li:hover .menu{
+    display: block;
+    position: absolute;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.tina-nav ul li:hover .menu ul{  
+    display: block;
+    background-color: brown;
+    }
+
+.tina-nav ul li:hover .menu ul li {
+    margin-top: 10px;
+    color: blue;
+ }
+.WELCOME{
+    margin-left: 200PX;
+    font-size: large;
+    font-weight: 900;
+}
+.TEXT{
+    margin-top: 10PX;
+    cursor: pointer;
+
+}
+.SIGN-UP{
+    WIDTH: 100px;
+    margin-left: 10px;
+}
+.SIGN-UP:hover{
+    background-color:orange;
+    border-radius: 5px;
+
+}
+.HURRY{
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    flex-direction: ROW;
+    margin-top: 10PX;
+    margin-bottom: 10PX;
+    margin-left: 100PX;
+    animation-duration: 4s;
+    border-radius: 10px;
+    color: black;
+        animation: blinker 1s linear infinite;
+      }
+      
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+  
+
+
+
+
+.TUKO{
+    font-weight: bold;
+    display: flex;
+    flex-direction: ROW;
+    font-size: large;
+    margin-top: 10PX;
+    margin-bottom: 10PX;
+    margin-left: 100PX;
+    animation: blinker 1s linear infinite;
+      }
+      
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+
+.BUTTONS{
+    height:1CM;
+    margin-top: 10PX;
+    margin-bottom: 10PX;
+    background-color:orangered}
+
+
+
+    
+    
+    
+.body{
+    background-color:pink;
+}
+.REGISTER{
+    font-size: large;
+    display: flex;
+    line-height: 20PX;
+    display: inline-block;
+    margin-left:20PX;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+ 
+    
+
+}
+.FOMU{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 12cm;
+    margin-left: 2CM;
+    width: 10cm;
+    margin-top: 20px;
+    background-color: orange;
+
+}
+.friday{
+    display: flex;
+    background-color: orangered;
+}
+
+
+
+
+.SPAN H1 SPAN{
+    color: white;
+    font-size:xx-large;
+    animation: animate 3ms linear infinite;
+    animation-delay: 2s;
+}
+.black{
+    height: 3cm;
+    margin-top: 60px;
+    margin-left: 1opx;
+}
+::placeholder{
+
+
+    height: 1CM;
+}
+.mpesa{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 2cm;
+}
+
+.mpesa-accepted{
+    animation: animate 1s linear infinite;
+    animation-delay: 2s;
+    height: 1.8cm;
+}
+.mpesa H2{
+    animation: animate 1s ease-in-out infinite;
+    animation-delay: 2s;
+    display: block;
+    color: brown;
+    margin-top: 20PX;
+    
+
+
+}
+
+@keyframes animate{
+    100%{
+        opacity: 0;
+    }
+     75%{
+        opacity: 0.4;
+     }
+
+     50%{
+        opacity: 0.6;
+     }
+
+     25%{
+        opacity: 0.8;
+     }
+     0%{
+        opacity: 1;
+     }
+}
+
+
+
+.EQUITY{
+    height:1.5CM;
+    margin-top: 10PX;
+}
+  .DISPLAY{
+    display: inline-block;
+    font-size: medium;
+    font-weight: 900;
+    word-spacing: 10PX;
+    margin-right: 100PX;
+    color: white;
+    margin-left: 10PX;
+  }  
+  .PAYBILL{
+    background-color:orangered;
+  }
+
+.blackk{
+    height: 50px;
+    position: absolute;
+    animation: hello 2s linear infinite;
+    animation-direction:alternate-reverse;
+    display: flex;
+}
+
+@keyframes hello{
+
+        0% {
+          left: 100%;
+        
+        }
+        100% {
+          left: 0;
+    
+        }
+      }
+
+.advert h1{
+    position: absolute;
+    animation: hello 2s linear infinite;
+    animation-direction: alternate;
+}
+
+.Preffered-ITEM{
+    display: absolute;
+}
+
+  .IMAGE-A{
+    HEIGHT:6CM 
+  }
+  .IMAGE-A:HOVER{
+    box-shadow: 30PX;
+    height: 6.3cm;
+  }
+  .ROW-1{
+    display: FLEX;
+    margin-top: 50PX;
+    justify-content: space-between;
+    background-color: whitesmoke;
+  }
+  .A{
+    display: block;
+  }
+   .ROW-2{
+    display: FLEX;
+    background-color: brown;
+    justify-content: space-between;}
+    
+    .ROW-3{
+        display: FLEX;
+        margin-top: 10PX;
+        background-color: aqua;
+        justify-content: space-between}
+        
+    .PRICE{
+        display: block;
+    }
+    .PRICE:hover{
+        color: orange;
+        cursor: pointer;
+
+    }
+    .ROW-4{
+        display: FLEX;
+        margin-top: 10PX;
+        justify-content: space-between;
+        background-color: orange;}
+ .conclusion{
+            background-color: black;
+            margin-top: 10px;
+            color: white;
+            display: flex;
+            height: 2CM;
+        }
+ .shop{
+    margin-top:20PX ;
+  
+    
+
+ }
+ .PEVAXX{
+    background-color: BLUE;
+    color: white;
+display: flex;
+height: 1CM;}
+.SITE{
+    margin-top: 20PX;
+
+}
